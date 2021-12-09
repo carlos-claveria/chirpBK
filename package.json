@@ -1,0 +1,29 @@
+{
+  "name": "chirpbk",
+  "version": "1.0.0",
+  "description": "Utility to make backup copies from LoraServer or Chirpstack",
+  "main": "chirpbk.js",
+  "scripts": {
+    
+    "dev": "tsc && node dist/chirpbk",
+    "dev:w": "ts-node-dev --respawn --transpile-only ./_src/chirpbk.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-claveria/chirpBK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlos-claveria/chirpBK/issues"
+  },
+  "homepage": "https://github.com/carlos-claveria/chirpBK#readme",
+  "devDependencies": {
+    "@types/inquirer": "^8.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "inquirer": "^8.2.0"
+  }
+}

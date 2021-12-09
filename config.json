@@ -1,0 +1,9 @@
+{
+    "mode"     : "backup",
+    "version"  : "ChirpStack",
+    "url"      : "http://smserver:8080",
+    "login"    : "admin",
+    "password" : "admin",
+    "outDir"   : "./bk"
+
+}
